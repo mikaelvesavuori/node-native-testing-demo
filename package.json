@@ -1,0 +1,24 @@
+{
+  "name": "node-native-testing-demo",
+  "version": "1.0.0",
+  "description": "Basic demo of Node native testing and how to make it work with TypeScript.",
+  "scripts": {
+    "test": "node --loader tsx --test tests/*.ts"
+  },
+  "keywords": [],
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "5",
+    "@typescript-eslint/parser": "5",
+    "eslint": "8",
+    "eslint-config-prettier": "8",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsdoc": "latest",
+    "eslint-plugin-prettier": "4",
+    "prettier": "2",
+    "tsx": "3",
+    "typescript": "5"
+  }
+}
